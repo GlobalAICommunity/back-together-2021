@@ -1,1 +1,2 @@
-# back-together-2022
+# Global AI Back together
+
