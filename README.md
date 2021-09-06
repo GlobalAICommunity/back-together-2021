@@ -37,10 +37,14 @@ We ***suggest*** for the event, in the spirit of being and learning together, th
 
 ### How to join
 - [Login](https://globalai.community/login) or [Create](https://globalai.community/register) an account on the Global AI Website
-- Create a local Community with the city name you are in
+- Create a local Community with the city or country name you are in.
 - Create a new event
+- [Join the Global AI Community Slack](https://join.slack.com/t/globalaicommunity/shared_invite/zt-vk629pxt-4zfKPcrGjx9fZ8~0OyEjCQ)
 
-
+**If applicable**
+- Request Azure Passes
+- Request event support
+- Ask a question
 
 ## Content
 
