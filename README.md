@@ -28,7 +28,7 @@ We ***suggest*** for the event, in the spirit of being and learning together, th
 
 ## Organizers information
 
-### Support prived
+### Support provided
 - Azure Passes
 - 2 Workshops
 - Global Keynote 
