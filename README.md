@@ -33,6 +33,14 @@ We ***suggest*** for the event, in the spirit of being and learning together, th
 - 2 Workshops
 - Global Keynote 
 - Streaming Support
+- MeetUp Pro subscription
+
+### How to join
+- [Login](https://globalai.community/login) or [Create](https://globalai.community/register) an account on the Global AI Website
+- Create a local Community with the city name you are in
+- Create a new event
+
+
 
 ## Content
 
