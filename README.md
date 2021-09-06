@@ -11,9 +11,31 @@ Wednesday 20 October 2021
 Thursday 21 October 2021
 
 ### Event format
+The event is all about being together, in-person or virtual, to learn about everything about Artificial intelligence. Every organizer is free to create a Back Together event to their liking, whether you want to have sessions, round tables, panels or workshops. 
+
+We ***suggest*** for the event, in the spirit of being and learning together, that you run one of the two provided workshops in the evening for around 2-3 hours and start the event with a global keynote. This can either be in a virtual venue, for online workshops we recommand using Teams or in-person.
+
+**In-Person schedule**
+
+| Time | Activity |
+| -- | -- |
+| 18:00 | Walk-in and something to eat
+| 19:00 | Start Workshops 
+| 21:30 | End Workshops & After event chats
+| 22:00 | End event
+
+
 
 ## Organizers information
 
-## Keynote
+### Support prived
+- Azure Passes
+- 2 Workshops
+- Global Keynote 
+- Streaming Support
 
-## Workshops / Hands-on Labs / Presentations
+## Content
+
+### Keynote
+
+### Workshops / Hands-on Labs / Presentations
