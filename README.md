@@ -1,5 +1,9 @@
 # Global AI Back together
-19-20-21 October 2021
+
+### Dates
+Tuesday 19 October 2021   
+Wednesday 20 October 2021   
+Thursday 21 October 2021
 
 ## Event format
 
