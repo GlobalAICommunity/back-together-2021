@@ -2,7 +2,7 @@
 
 *In this GitHub repository you find all the information around the Global AI Back Together event.*
 
-```We are thrilled that the world is opening up and couldn't be more happy to once again be Back Together and spend an evening of learning about AI together.
+> We are thrilled that the world is opening up and couldn't be more happy to once again be Back Together and spend an evening of learning about AI together.
 
 
 ### Dates
