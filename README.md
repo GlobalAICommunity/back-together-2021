@@ -1,4 +1,4 @@
-# Global AI Back together
+# Global AI Back together - October 2021
 
 *In this GitHub repository you find all the information around the Global AI Back Together event.*
 
