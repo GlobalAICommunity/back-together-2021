@@ -15,7 +15,7 @@ The event is all about being together, in-person or virtual, to learn about ever
 
 We ***suggest*** for the event, in the spirit of being and learning together, that you run one of the two provided workshops in the evening for around 2-3 hours and start the event with a global keynote. This can either be in a virtual venue, for online workshops we recommand using Teams or in-person.
 
-**In-Person schedule**
+**Sample in-person schedule**
 
 | Time | Activity |
 | -- | -- |
