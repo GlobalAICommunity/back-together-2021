@@ -11,7 +11,7 @@ Wednesday 20 October 2021
 Thursday 21 October 2021
 
 ### Links:
-[Event page](https://globalai.community/global-ai-back-together/)
+[Event page](https://globalai.community/global-ai-back-together/)   
 [Organizers Information](https://globalai.community/global-ai-back-together//information/organizers)
 
 ### Event format
