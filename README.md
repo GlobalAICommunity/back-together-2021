@@ -10,6 +10,10 @@ Tuesday 19 October 2021
 Wednesday 20 October 2021   
 Thursday 21 October 2021
 
+### Links:
+[Event page](https://globalai.community/global-ai-back-together/)
+[Organizers Information](https://globalai.community/global-ai-back-together//information/organizers)
+
 ### Event format
 The event is all about being together, in-person or virtual, to learn about everything about Artificial intelligence. Every organizer is free to create a Back Together event to their liking, whether you want to have sessions, round tables, panels or workshops. 
 
