@@ -56,3 +56,14 @@ We ***suggest*** for the event, in the spirit of being and learning together, th
 ### Keynote
 
 ### Workshops / Hands-on Labs / Presentations
+
+
+#### Workshop 1: The Azure Function that can see
+Could have imagined a few years ago that you would be able to create an Azure Function that can tell you what is on your images? Good news, this is now possible with a few lines of code and some sample images.
+In this hands-on lab you are going to train a ONNX classification Model with the Custom Vision service that will run in an Azure Function. The language of choice is Python and you will use Visual Studio code as the editor and the Azure CLI to manage and create your Azure Resources.
+At the end of the lab you have a serverless API that can classify Images and learned about how to use the Azure Custom Vision Python SDK to train an ONNX model.
+
+[Workshop content](https://global-ai-community.gitbook.io/global-ai-back-together/the-azure-function-that-can-see/introduction)
+
+
+
