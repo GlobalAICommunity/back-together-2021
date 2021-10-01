@@ -65,5 +65,6 @@ At the end of the lab you have a serverless API that can classify Images and lea
 
 [Workshop content](https://global-ai-community.gitbook.io/global-ai-back-together/the-azure-function-that-can-see/introduction)
 
+#### Workshop 2: Train and deploy a PyTorch model using the Azure Machine Learning platform.
 
-
+[Workshop content](https://global-ai-community.gitbook.io/global-ai-back-together/azure-machine-learning/introduction)
