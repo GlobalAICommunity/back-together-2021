@@ -14,6 +14,7 @@ Thursday 21 October 2021
 [Logos and artwork](https://github.com/GlobalAICommunity/back-together-2021/tree/main/Assets)  
 [Event page](https://globalai.community/global-ai-back-together/)   
 [Organizers Information](https://globalai.community/global-ai-back-together//information/organizers)
+[Workshops](https://workshops.globalai.community)
 
 ### Event format
 The event is all about being together, in-person or virtual, to learn about everything about Artificial intelligence. Every organizer is free to create a Back Together event to their liking, whether you want to have sessions, round tables, panels or workshops. 
