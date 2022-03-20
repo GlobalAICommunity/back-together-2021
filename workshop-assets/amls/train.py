@@ -6,7 +6,6 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 import numpy as np
-import torchvision
 from torchvision import datasets, models, transforms
 import time
 import os
@@ -18,22 +17,24 @@ import argparse
 from azureml.core import Run,Workspace
 from azureml.core.model import Model
 
-
 ### Add run context for AML
 run = Run.get_context()
 
-
 ### Parse incoming parameters
 parser = argparse.ArgumentParser()
-parser.add_argument("--data-folder", type=str, dest="data_folder", help="data folder mounting point", default="")
+parser.add_argument("--data-path", type=str, dest="data_path", help="data folder mounting point", default="")
 parser.add_argument("--num-epochs", type=int, dest="num_epochs", help="Number of epochs", default="")
-parser.add_argument("--model-name", type=str, dest="model_name", help="Name of the registered Model", default="")
+parser.add_argument('--learning-rate', dest="learning_rate", type=float, default=0.001, help='learning rate')
+parser.add_argument('--momentum', type=float, default=0.9, help='momentum')
+parser.add_argument('--model-name', type=str, default="Simpsons", dest="model_name", help='Name of the model')
 
 
 args = parser.parse_args()
-data_path = args.data_folder
+data_path = args.data_path
 num_epochs = args.num_epochs
-model_name = args.model_name
+learning_rate = args.learning_rate
+momentum = args.momentum
+model_name = args.model_name 
 
 ### Prepare the dataset
 data_transforms = {
@@ -109,8 +110,8 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=5):
             epoch_acc = running_corrects.double() / dataset_sizes[phase]
 
             # Log the los / acc to AMLS
-            run.log("{} Loss".format(phase), np.float(epoch_loss))
-            run.log("{} Acc".format(phase), np.float(epoch_acc))
+            run.log("{} Loss".format(phase), float(epoch_loss))
+            run.log("{} Acc".format(phase), float(epoch_acc))
 
             # deep copy the model
             if phase == 'val' and epoch_acc > best_acc:
@@ -118,6 +119,8 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=5):
                 best_model_wts = copy.deepcopy(model.state_dict())
 
         print()
+    
+    run.log("accuracy", float(best_acc))
 
     time_elapsed = time.time() - since
     print('Training complete in {:.0f}m {:.0f}s'.format(time_elapsed // 60, time_elapsed % 60))
@@ -137,7 +140,7 @@ model_ft = model_ft.to(device)
 criterion = nn.CrossEntropyLoss()
 
 # Observe that all parameters are being optimized
-optimizer_ft = optim.SGD(model_ft.parameters(), lr=0.001, momentum=0.9)
+optimizer_ft = optim.SGD(model_ft.parameters(), lr=learning_rate, momentum=momentum)
 
 # Decay LR by a factor of 0.1 every 7 epochs
 exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=7, gamma=0.1)
